@@ -23,6 +23,41 @@
           }
         
         
+          .image-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+          }
+      
+          .main-image {
+            width: 100%;
+            height: auto;
+            display: block;
+          }
+      
+          .blur-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 30px;
+            color: white;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+          }
+      
+          .btn-orange {
+            background-color: #f28500;
+            color: white;
+            border: none;
+          }
+      
+          .btn-orange:hover {
+            background-color: #d86e00;
+          }
 
     </style>
 </head>
@@ -262,8 +297,50 @@
                           </div>
                 </div>
            </div> 
-           <!--  -->
-           
+           <!-- Turning ideas -->
+              <!-- <div class="container mt-5 mb-5">
+                 <div class="row">
+                    <img class="img-fluid rounded" src="./kotriya-sala-nomok-dal.jpg" alt="">
+                 </div>
+              </div> -->
+
+
+              <div class="container mt-5 mb-5">
+                <div class="image-container">
+                  <img class="main-image" src="./kotriya-sala-nomok-dal.jpg" alt="Ad Banner">
+                  <div class="blur-overlay">
+                    <h2 class="fw-bold">Turning ideas into impactful Ad campaigns</h2>
+                    <p>Partner with us to take your brand to the next level. Our platform offers prime advertising opportunities designed to connect your business with a diverse & engaged audience.</p>
+                    <button class="btn btn-orange mt-2">ADVERTISE WITH US →</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Our Editorial Team -->
+
+              <div class="container mt-5 mb-5">
+                 <div class="row gap-5 gap-lg-0 gap-md-0">
+                     <p class="fs-4 fw-bold ">Our Editorial Team</p>
+                      <div class="col-lg-4 col-md-4 col-12">
+                       <p style="position: absolute; margin-top: 400px; width: 410px;" class="ms-1 bg-gradient fw-bold  p-4">Sadiya Sultana Bristy</p>
+                         <img class="img-fluid rounded" src="man-2.jpg" alt="">
+                         
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-12">
+                        <p style="position: absolute; margin-top: 400px; width: 410px" class="ms-1 bg-gradient fw-bold p-4">Saifur Rahman Saif.</p>
+
+                    <img class="img-fluid rounded" src="./man-3.jpg" alt="">
+                      </div>
+                      <div class="col-lg-4 col-md-4  col-12">
+                        <p style="position: absolute; margin-top: 400px; width: 410px" class="ms-1 bg-gradient fw-bold p-4">Saidur Rahman Asif</p>
+
+                     <img class="img-fluid rounded" src="./man-2.jpg" alt="">
+                      </div>
+                 </div>
+              </div>
+              <!-- Podcast -->
+               
+
     <script src="./bootstrap-5.3.5-dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

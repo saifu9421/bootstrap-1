@@ -6,6 +6,77 @@
     <link rel="stylesheet" href="./bootstrap-5.3.5-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>JoxNews</title>
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+        }
+    
+        .newsletter {
+          background-color: #cc3d27;
+          color: white;
+          padding: 80px 50px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: relative;
+        }
+    
+        .newsletter-text {
+          max-width: 600px;
+        }
+    
+        .newsletter h1 {
+          font-size: 36px;
+          margin-bottom: 20px;
+        }
+    
+        .newsletter p {
+          font-size: 18px;
+          margin: 5px 0;
+        }
+    
+        .newsletter-form {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          max-width: 400px;
+          width: 100%;
+        }
+    
+        .newsletter-form input[type="email"] {
+          padding: 15px;
+          font-size: 16px;
+          border: none;
+          border-radius: 4px;
+        }
+    
+        .newsletter-form button {
+          padding: 15px;
+          background-color: #1a1a1a;
+          color: white;
+          font-size: 16px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+    
+        .newsletter-form button:hover {
+          background-color: #333;
+        }
+    
+        @media (max-width: 768px) {
+          .newsletter {
+            flex-direction: column;
+            text-align: center;
+            gap: 30px;
+          }
+    
+          .newsletter-form {
+            align-items: center;
+          }
+        }
+      </style>
 </head>
 <body>
     <!-- navbar -->
@@ -156,8 +227,75 @@
               </div>
               </div>
          </div>
-         <!-- banner part-two -->
-          
+         <!-- banner LAtest News-->
+            <div class="container">
+                  <div class="row">
+                       <div class="col-lg-6 col-12 col-md-6">
+                             <img class="img-fluid rounded" src="./as2-2.jpg" alt="">
+                             <div class="d-flex gap-4"> 
+                                <p>Technology</p>
+                                <p>9PM</p>
+                              </div>
+                             <p class="fw-bold fs-4">5G Expansion: What It Means for <br> Consumers and Businesses</p>
+                       </div>
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                               <div class="row">
+                                   <div class="col-6">
+                                   <img class="img-fluid" src="./as2-5.jpg" alt="">
+                                      <div class="d-flex gap-4"> 
+                                        <p>Technology</p>
+                                        <p>9PM</p>
+                                      </div>
+                                   <p class="fw-bold">The Science of Sleep: How to Rest Better in a 24/7 World</p>
+                                   <hr>
+                                   </div>
+                                   <div class="col-6">
+                                 <img   class="img-fluid" src="./as2-4.jpg" alt="">
+                                 <div class="d-flex gap-4"> 
+                                    <p>Technology</p>
+                                    <p>9PM</p>
+                                  </div>
+                                 <p class="fw-bold">The Science of Sleep: How to Rest Better in a 24/7 World</p> <hr>
+                                   </div>
+                               </div> 
+
+                               <div class="row">
+                                <div class="col-6">
+                                <img  class="img-fluid" src="./as2-3.jpg" alt="">
+                                <div class="d-flex gap-4"> 
+                                    <p>Technology</p>
+                                    <p>9PM</p>
+                                  </div>
+                                <p class="fw-bold">The Science of Sleep: How to Rest Better in a 24/7 World</p>
+                                </div>
+                                <div class="col-6">
+                              <img class="img-fluid" src="./as2-5.jpg" alt="">
+                              <div class="d-flex gap-4"> 
+                                <p>Technology</p>
+                                <p>9PM</p>
+                              </div>
+                              <p class="fw-bold">The Science of Sleep: How to Rest Better in a 24/7 World</p>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!--  newsLetter -->
+
+
+            <section class="newsletter mb-5 mt-5">
+                <div class="newsletter-text">
+                  <h1>Stay informed with our latest news<br>and updates.</h1>
+                  <p><strong>Get breaking news and curated stories delivered to your inbox every day.</strong></p>
+                  <p>Be the first to know what's happening around the world</p>
+                </div>
+                     <img class="img-fluid rounded mt-4" src="./as2-5.jpg" alt="">
+              </section>
+            
+<!-- Editor part -->
+  
 
     <script src="./bootstrap-5.3.5-dist/js/bootstrap.bundle.js"></script>
 
